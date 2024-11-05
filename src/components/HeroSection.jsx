@@ -3,7 +3,7 @@ import BlobProfile from "../assets/blob.svg";
 
 const HeroSection = () => {
     return (
-        <div className="flex px-48 w-full justify-between items-center bg-blue-50 mt-6">
+        <div className="flex px-48 w-full justify-between items-center bg-gradient-to-r from-cyan-50 to-blue-50 mt-6">
             <div className="flex-1">
                 <p className="font-semibold text-xl">Hello gaes</p>
                 <div className="mt-8">
