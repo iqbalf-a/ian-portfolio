@@ -3,6 +3,10 @@ import SocialMediaFollow from "../components/SocialMediaFollow";
 import HeroSection from "../components/HeroSection";
 import Specialization from "../components/Specialization";
 import Skills from "../components/Skills";
+import Portfolio from "../components/Portfolio";
+import Experience from "../components/Experience";
+import Footer from "../components/Footer";
+
 
 const HomePage = () => {
     return (
@@ -11,35 +15,10 @@ const HomePage = () => {
             <SocialMediaFollow />
             <Specialization />
             <Skills />
+            <Portfolio />
+            <Experience />
+            <Footer/>
 
-            {/* notes */}
-            {/* <header>
-    <!-- Navbar -->
-</header>
-
-<section id="hero">
-    <!-- Hero Section -->
-</section>
-
-<section id="specialties">
-    <!-- Specialties Section -->
-</section>
-
-<section id="skills">
-    <!-- Skills Section -->
-</section>
-
-<section id="portfolio">
-    <!-- My Portfolio Section -->
-</section>
-
-<section id="experience">
-    <!-- Experience Section -->
-</section>
-
-<footer>
-    <!-- Footer -->
-</footer> */}
         </div>
 
     )
