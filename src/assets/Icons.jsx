@@ -2,202 +2,218 @@ import React from "react";
 
 const Icon = ({ src, alt, width = 80, height = 80 }) => {
     return (
-        <img src={src} alt={alt} width={width} height={height} className="hover:scale-110 transition-transform duration-300" />
+        <img src={src} alt={alt} width={width} height={height} className="hover:scale-[1.05] transition-transform duration-200" />
     )
 }
 
-export const FigmaIcon = () => {
+export const FigmaIcon = ({width, height}) => {
     return (
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="figma-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width={width} height={height} alt="figma-icon"/>
     )
 }
 
-export const CodeigniterIcon = () => {
+export const CodeigniterIcon = ({width, height}) => {
     return (
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain-wordmark.svg" alt="ci-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain-wordmark.svg" width={width} height={height} alt="ci-icon"/>
     )
 }
 
-export const FlutterIcon = () => {
+export const FlutterIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="flutter-icon"/>
-
-    )
-}
-
-export const SpringIcon = () => {
-    return (
-
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" alt="spring-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width={width} height={height} alt="flutter-icon"/>
 
     )
 }
 
-export const AngularIcon = () => {
+export const SpringIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt="angular-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" width={width} height={height} alt="spring-icon"/>
 
     )
 }
 
-export const ReactIcon = () => {
+export const AngularIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="react-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width={width} height={height} alt="angular-icon"/>
 
     )
 }
 
-export const GitIcon = () => {
+export const ReactIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" alt="git-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width={width} height={height} alt="react-icon" />
 
     )
 }
 
-export const HtmlIcon = () => {
+export const GitIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="html-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" width={width} height={height} alt="git-icon"/>
 
     )
 }
 
-export const CssIcon = () => {
+export const HtmlIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="css-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width={width} height={height} alt="html-icon"/>
 
     )
 }
 
-export const BootstrapIcon = () => {
+export const CssIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" alt="bootstrap-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width={width} height={height} alt="css-icon" />
 
     )
 }
 
-export const TailwindCssIcon = () => {
+export const BootstrapIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="tailwindcss-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" width={width} height={height} alt="bootstrap-icon" />
 
     )
 }
 
-export const DartIcon = () => {
+export const TailwindCssIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original-wordmark.svg" alt="dart-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width={width} height={height} alt="tailwindcss-icon"/>
 
     )
 }
 
-export const PhpIcon = () => {
+export const DartIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="php-icon"  />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original-wordmark.svg" width={width} height={height} alt="dart-icon" />
 
     )
 }
 
-export const JavaIcon = () => {
+export const PhpIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="java-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width={width} height={height} alt="php-icon"  />
 
     )
 }
 
-export const JavaScriptIcon = () => {
+export const JavaIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="js-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width={width} height={height} alt="java-icon"/>
 
     )
 }
 
-export const NodeJsIcon = () => {
+export const JavaScriptIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width={width} height={height} alt="js-icon" />
 
     )
 }
 
-export const MySqlIcon = () => {
+export const NodeJsIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="mysql-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width={width} height={height} alt="nodejs-icon"/>
 
     )
 }
 
-export const PostgreSqlIcon = () => {
+export const MySqlIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="postgres-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width={width} height={height} alt="mysql-icon" />
 
     )
 }
 
-export const CSharpIcon = () => {
+export const PostgreSqlIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="cs-icon" />
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width={width} height={height} alt="postgres-icon" />
 
     )
 }
 
-export const LaravelIcon = () => {
+export const CSharpIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="laravel-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width={width} height={height} alt="cs-icon" />
 
     )
 }
 
-export const CppIcon = () => {
+export const LaravelIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width={width} height={height} alt="laravel-icon"/>
 
     )
 }
 
-export const CIcon = () => {
+export const CppIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width={width} height={height} alt="cpp-icon"/>
 
     )
 }
 
-export const PostmanIcon = () => {
+export const CIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="postman-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width={width} height={height} alt="c-icon"/>
 
     )
 }
 
-export const UnityIcon = () => {
+export const PostmanIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-plain-wordmark.svg" alt="unity-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width={width} height={height} alt="postman-icon"/>
 
     )
 }
 
-export const VercelIcon = () => {
+export const UnityIcon = ({width, height}) => {
     return (
 
-        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" alt="vercel-icon"/>
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-plain-wordmark.svg" width={width} height={height} alt="unity-icon"/>
+
+    )
+}
+
+export const VercelIcon = ({width, height}) => {
+    return (
+
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" width={width} height={height} alt="vercel-icon"/>
+
+    )
+}
+
+export const NuxtIcon = ({width, height}) => {
+    return (
+
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg" width={width} height={height} alt="nuxt-icon"/>
+
+    )
+}
+
+export const VueIcon = ({width, height}) => {
+    return (
+
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" width={width} height={height} alt="vue-icon"/>
 
     )
 }

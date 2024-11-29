@@ -1,10 +1,10 @@
 import React from "react";
-import SocialMediaFollow from "../components/SocialMediaFollow";
-import HeroSection from "../components/HeroSection";
-import Specialization from "../components/Specialization";
-import Skills from "../components/Skills";
-import Portfolio from "../components/Portfolio";
-import Experience from "../components/Experience";
+import SocialMediaFollow from "../sections/SocialMediaFollow";
+import HeroSection from "../sections/HeroSection";
+import Specialization from "../sections/Specialization";
+import Skills from "../sections/Skills";
+import Portfolio from "../sections/Portfolio";
+import Experience from "../sections/Experience";
 import Footer from "../components/Footer";
 
 
