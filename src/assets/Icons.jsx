@@ -1,6 +1,6 @@
 import React from "react";
 
-const Icon = ({ src, alt, width = 80, height = 80 }) => {
+const Icon = ({ src, alt, width = 60, height = 60 }) => {
     return (
         <img src={src} alt={alt} width={width} height={height} className="hover:scale-[1.05] transition-transform duration-200" />
     )

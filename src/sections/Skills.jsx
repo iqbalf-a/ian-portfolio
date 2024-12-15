@@ -4,11 +4,11 @@ import { AngularIcon, BootstrapIcon, CIcon, CodeigniterIcon, CppIcon, CSharpIcon
 const Skills = () => {
     return (
         <div className="flex justify-center mt-12">
-            <div className="flex w-3/5">
-                <div className="flex w-1/4 text-center">
-                    <p className="text-2xl font-semibold">_My Toolkit</p>
+            <div className="flex flex-col items-center w-3/5">
+                <div className="flex text-center">
+                    <p className="text-2xl font-semibold">My Toolkit</p>
                 </div>
-                <div className="flex flex-wrap w-3/4 text-center gap-6">
+                <div className="flex flex-wrap w-3/4 mt-6 justify-center gap-10">
                     <PhpIcon />
                     <DartIcon />
                     <JavaIcon />

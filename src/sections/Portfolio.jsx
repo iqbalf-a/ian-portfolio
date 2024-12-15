@@ -48,7 +48,7 @@ const Portfolio = () => {
     return (
         <div className="flex flex-col items-center mt-8">
             <p className="text-2xl font-semibold">Portfolio</p>
-            <div className="flex gap-6 mt-4">
+            <div className="flex gap-10 mt-4">
                 {portfolios.map((itemPortfolio) => (
                     <PortfolioCard key={itemPortfolio.id} itemPortfolio={itemPortfolio} onShowDetail={showPortfolioDetail} />
                 ))}
