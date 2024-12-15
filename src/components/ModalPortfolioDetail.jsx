@@ -16,27 +16,33 @@ const ModalPortfolioDetail = ({ itemPortfolio, onClose }) => {
                     &times;
                 </button>
                 <h2 className="text-2xl font-bold mb-4">{itemPortfolio.name}</h2>
-                <img src={itemPortfolio.image} alt={itemPortfolio.name} className="w-full h-80 object-cover rounded mb-4" />
-                <p className="mt-4">{itemPortfolio.description}</p>
-                <p className="text-xs mt-4">build with</p>
-                <div className="flex gap-4 mt-2">
-                    {itemPortfolio.technologies.map((tech, index) => (
-                        <div key={index}>{tech}</div>
-                    ))}
+                <img src={itemPortfolio.image} alt={itemPortfolio.name} className="w-full h-80 object-cover rounded mb-4 border-2" />
+                {/* <p className="mt-4">{itemPortfolio.description}</p> */}
+                <div className="px-3 py-2 rounded-lg">
+                    <p className="text-xs italic">build with</p>
+                    <div className="flex gap-4 mt-4">
+                        {itemPortfolio.technologies.map((tech, index) => (
+                            <div key={index}>{tech}</div>
+                        ))}
+                    </div>
                 </div>
-                <div className="flex items-center gap-2 mt-4">
+                <div className="flex items-center gap-4 mt-6">
                     <div>
-                        <a className="flex items-center px-6 py-3 rounded-lg text-white text-sm hover:bg-yellow-500 hover:text-white transition-colors hover:border-yellow-500 bg-blue-500 gap-2" href={itemPortfolio.sourceCode}>
+                        <a className="flex items-center px-3 py-2 rounded-md text-sm gap-2" href={itemPortfolio.sourceCode} target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
                             </svg>
-                            <p>source code</p>
+                            <p >Code</p>
                         </a>
                     </div>
-                    <p>or</p>
-                    <a href={itemPortfolio.sourceCode} className="underline">
-                        {itemPortfolio.sourceCode}
-                    </a>
+                    <div>
+                        <a className="flex items-center px-3 py-2 rounded-md text-white text-sm hover:bg-yellow-500 hover:text-white transition-colors hover:border-yellow-500 bg-blue-500 gap-2" href={itemPortfolio.demoUrl} target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
+                            </svg>
+                            <p>Demo</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
