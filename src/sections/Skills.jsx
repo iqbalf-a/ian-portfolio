@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className="flex text-center">
                     <p className="text-2xl font-semibold">My Toolkit</p>
                 </div>
-                <div className="flex flex-wrap w-3/4 mt-6 justify-center gap-10">
+                <div className="flex flex-wrap w-3/4 mt-6 justify-center gap-12">
                     <PhpIcon />
                     <DartIcon />
                     <JavaIcon />

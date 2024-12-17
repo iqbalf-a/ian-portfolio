@@ -14,14 +14,14 @@ const Portfolio = () => {
         {
             id: 1,
             name: 'my-money',
-            description: 'Sistem yang dapat memudahkan anda megelola penghasilan dan pengeluaran uang anda.',
+            description: 'desc',
             sourceCode: 'https://github.com/iqbalf-a/my-money',
             technologies: [
                 <DartIcon width={50} height={50} />,
                 <FlutterIcon width={50} height={50} />
             ],
             image: portolio1,
-            demoUrl: ''
+            demoUrl: 'https://www.figma.com/design/dcilbSAPYrgk8rFPTpW5tc/MOney-Lovers?m=auto&t=ZBmj3dZiOyskz9zJ-6'
         }, {
             id: 2,
             name: 'noveltoon-clone',
@@ -47,7 +47,7 @@ const Portfolio = () => {
 
     return (
         <div className="flex flex-col items-center mt-8">
-            <p className="text-2xl font-semibold">Portfolio</p>
+            <p className="text-2xl font-semibold">Project</p>
             <div className="flex gap-10 mt-4">
                 {portfolios.map((itemPortfolio) => (
                     <PortfolioCard key={itemPortfolio.id} itemPortfolio={itemPortfolio} onShowDetail={showPortfolioDetail} />
