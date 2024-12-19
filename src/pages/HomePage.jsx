@@ -5,6 +5,7 @@ import Specialization from "../sections/Specialization";
 import Skills from "../sections/Skills";
 import Portfolio from "../sections/Portfolio";
 import Experience from "../sections/Experience";
+import Contact from "../sections/Contact";
 import Footer from "../components/Footer";
 
 
@@ -17,6 +18,7 @@ const HomePage = () => {
             <Skills />
             <Portfolio />
             <Experience />
+            <Contact />
             <Footer/>
 
         </div>
