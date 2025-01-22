@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-import PortfolioCard from "../components/PortfolioCard";
-import portolio1 from "../assets/portfolio/portfolio1.png"
-import portolio2 from "../assets/portfolio/portfolio2.png"
-import ModalPortfolioDetail from "../components/ModalPortfolioDetail";
+import ProjectCard from "../components/ProjectCard";
+import project1 from "../assets/project-item/item1.png"
+import project2 from "../assets/project-item/item2.png"
+import ModalProjectDetail from "../components/ModalProjectDetail";
 import { DartIcon, FlutterIcon, NuxtIcon, TailwindCssIcon, VueIcon } from "../assets/Icons";
 
-const Portfolio = () => {
+const Project = () => {
 
-    const [selectedPortfolio, setSelectedPortfolio] = useState(null);
+    const [selectedProject, setSelectedProject] = useState(null);
 
-
-    const portfolios = [
+    const projects = [
         {
             id: 1,
             name: 'my-money',
@@ -20,7 +19,7 @@ const Portfolio = () => {
                 <DartIcon width={50} height={50} />,
                 <FlutterIcon width={50} height={50} />
             ],
-            image: portolio1,
+            image: project1,
             demoUrl: 'https://www.figma.com/design/dcilbSAPYrgk8rFPTpW5tc/MOney-Lovers?m=auto&t=ZBmj3dZiOyskz9zJ-6'
         }, {
             id: 2,
@@ -32,30 +31,30 @@ const Portfolio = () => {
                 <NuxtIcon width={50} height={50} />,
                 <TailwindCssIcon width={50} height={50} />
             ],
-            image: portolio2,
+            image: project2,
             demoUrl: 'https://my-noveltoon-clone.pages.dev/'
         },
     ]
 
-    const showPortfolioDetail = (itemPortfolio) => {
-        setSelectedPortfolio(itemPortfolio)
+    const showProjectDetail = (itemProject) => {
+        setSelectedProject(itemProject)
     }
 
     const closeModal = () => {
-        setSelectedPortfolio(null)
+        setSelectedProject(null)
     }
 
     return (
         <div className="flex flex-col items-center mt-8">
-            <p className="text-2xl font-semibold">Project</p>
+            <p className="text-2xl font-semibold">Projects</p>
             <div className="flex gap-10 mt-4">
-                {portfolios.map((itemPortfolio) => (
-                    <PortfolioCard key={itemPortfolio.id} itemPortfolio={itemPortfolio} onShowDetail={showPortfolioDetail} />
+                {projects.map((itemProject) => (
+                    <ProjectCard key={itemProject.id} itemProject={itemProject} onShowDetail={showProjectDetail} />
                 ))}
             </div>
-            <ModalPortfolioDetail itemPortfolio={selectedPortfolio} onClose={closeModal} />
+            <ModalProjectDetail itemProject={selectedProject} onClose={closeModal} />
         </div>
     )
 }
 
-export default Portfolio;
+export default Project;

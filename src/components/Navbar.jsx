@@ -17,7 +17,7 @@ const Navbar = () => {
 
             <ul className='flex justify-center font-semibold gap-16 text-gray-600 text-sm items-center'>
                 <li><Link to="/" className='hover:text-gray-800'>About</Link></li>
-                <li><Link to="/portfolio" className='hover:text-gray-800'>Portfolio</Link></li>
+                <li><Link to="/portfolio" className='hover:text-gray-800'>Projects</Link></li>
                 <li><Link to="/journey" className='hover:text-gray-800'>Journey</Link></li>
                 <li><Link to="/contact" className='hover:text-gray-800'>Contact</Link></li>
                 <li>
