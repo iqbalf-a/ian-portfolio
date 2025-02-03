@@ -3,7 +3,7 @@ import { AngularIcon, BootstrapIcon, CIcon, CodeigniterIcon, CppIcon, CSharpIcon
 
 const Skills = () => {
     return (
-        <div className="flex justify-center mt-12">
+        <div id="skills" className="flex justify-center mt-12">
             <div className="flex flex-col items-center w-3/5">
                 <div className="flex text-center">
                     <p className="text-2xl font-semibold">My Toolkit</p>

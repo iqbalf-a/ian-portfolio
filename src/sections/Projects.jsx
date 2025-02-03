@@ -45,7 +45,7 @@ const Project = () => {
     }
 
     return (
-        <div className="flex flex-col items-center mt-8">
+        <div id="projects" className="flex flex-col items-center mt-8">
             <p className="text-2xl font-semibold">Projects</p>
             <div className="flex gap-10 mt-4">
                 {projects.map((itemProject) => (

@@ -37,7 +37,7 @@ const Experiences = () => {
     ]
 
     return (
-        <div>
+        <div id="experience">
             <div className="flex justify-center mt-8">
                 <p className="text-2xl font-semibold">Experience</p>
             </div>

@@ -16,15 +16,11 @@ const Navbar = () => {
             </div>
 
             <ul className='flex justify-center font-semibold gap-16 text-gray-600 text-sm items-center'>
-                <li><Link to="/" className='hover:text-gray-800'>About</Link></li>
-                <li><Link to="/portfolio" className='hover:text-gray-800'>Projects</Link></li>
-                <li><Link to="/journey" className='hover:text-gray-800'>Journey</Link></li>
-                <li><Link to="/contact" className='hover:text-gray-800'>Contact</Link></li>
-                <li>
-                    <Link to="/hire" className='px-6 py-3 rounded-lg text-white text-sm hover:bg-yellow-500 hover:text-white transition-colors hover:border-yellow-500 bg-blue-500'>
-                        Hire Me
-                    </Link>
-                </li>
+                <li><a href="#skills" className='hover:text-gray-800'>My Tools</a></li>
+                <li><a href="#projects" className='hover:text-gray-800'>Projects</a></li>
+                <li><a href="#experience" className='hover:text-gray-800'>Experience</a></li>
+                <li><a href="#contact" className='hover:text-gray-800'>Contact</a></li>
+                <li><Link to="/hire" className='px-6 py-3 rounded-lg text-white text-sm hover:bg-yellow-500 hover:text-white transition-colors hover:border-yellow-500 bg-blue-500'>Hire Me</Link></li>
             </ul>
         </nav>
     )

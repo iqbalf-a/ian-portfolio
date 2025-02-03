@@ -7,6 +7,7 @@ import Project from "../sections/Projects";
 import Experiences from "../sections/Experiences";
 import Contact from "../sections/Contact";
 import Footer from "../components/Footer";
+import BackToTopButton from "../components/BackToTopButton";
 
 
 const HomePage = () => {
@@ -20,6 +21,8 @@ const HomePage = () => {
             <Experiences />
             <Contact />
             <Footer/>
+
+            <BackToTopButton />
 
         </div>
 
