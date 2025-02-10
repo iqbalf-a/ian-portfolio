@@ -7,32 +7,27 @@ const Experiences = () => {
             id: 1,
             workplace: "PT Bank Mandiri (Persero) Tbk.",
             jobTitle: "Performance Test Engineer",
-            employmentDates: "February 2023 - Present · 2 years",
-            jobDetails: "- Added a user profile page for personalized settings. <br /> - Implemented a dark mode for improved user experience at night. <br /> - Introduced real-time notifications for instant updates. "
-        }, {
-            id: 2,
-            workplace: "PT Adi Data Informatika",
-            jobTitle: "Talent",
-            employmentDates: "February 2023 - Present · 2 years",
-            jobDetails: "- Added a user profile page for personalized settings. <br /> - Implemented a dark mode for improved user experience at night. <br /> - Introduced real-time notifications for instant updates. "
+            employmentDates: "February 2023 - Present · 2 years (Contract Resource)",
+            jobDetails: "• Coordinated meetings to define objectives and gather necessary data for performance testing. <br />" +
+                "• Developed test scripts and automation proccess to ensure efficient testing procedures. <br />" +
+                "• Perfomed performance testing an large-scale applications such as Kopra by Mandiri, ensuring system stability and performance under high traffic conditions. <br/> " +
+                "• Identified performance bottlenecks in Kopra by Mandiri and provided recommendations for for optimization user experience scalability."
         }, {
             id: 3,
             workplace: "PT Enigma Cipta Humanika",
-            jobTitle: "Talent",
-            employmentDates: "January 2023 - January 2025 · 2 years",
-            jobDetails: "- Added a user profile page for personalized settings. <br /> - Implemented a dark mode for improved user experience at night. <br /> - Introduced real-time notifications for instant updates. "
+            jobTitle: "Bootcamp Participant",
+            employmentDates: "November 2022 - January 2023 · 3 months",
+            jobDetails: "• Gained solid understanding of programming fundamentals. <br /> " +
+                "• Learned Spring Boot for backend development. <br />" +
+                "• Acquired skills in React and React Native for frontend development. <br/> " +
+                "• Implement PostgreSQL as ad Database Management System in application development."
         }, {
             id: 4,
-            workplace: "PT Enigma Cipta Humanika",
-            jobTitle: "Trainee",
-            employmentDates: "November 2022 - January 2023 · 3 months",
-            jobDetails: "- Added a user profile page for personalized settings. <br /> - Implemented a dark mode for improved user experience at night. <br /> - Introduced real-time notifications for instant updates. "
-        }, {
-            id: 5,
             workplace: "PT Mejakita Edunusa Mandiri",
             jobTitle: "Internship",
             employmentDates: "February 2021 - April 2021 · 3 months",
-            jobDetails: "- Added a user profile page for personalized settings. <br /> - Implemented a dark mode for improved user experience at night. <br /> - Introduced real-time notifications for instant updates. "
+            jobDetails: "• Learned API development and implementation techniques. <br /> " +
+                " • Developed RESTful APIs using CodeIgniter 4 for web applications. <br />"
         }
     ]
 
@@ -42,7 +37,7 @@ const Experiences = () => {
                 <p className="text-2xl font-semibold">Experience</p>
             </div>
             <div className="bg-white">
-                <div className="max-w-xl mx-auto p-8">
+                <div className="max-w-2xl mx-auto p-8">
                     <div className="flow-root">
                         <ul className="mb-8">
                             {experiences.map((itemExperience) => (
