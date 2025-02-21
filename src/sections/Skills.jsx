@@ -1,5 +1,5 @@
 import React from "react";
-import { AngularIcon, BootstrapIcon, CIcon, CodeigniterIcon, CppIcon, CSharpIcon, CssIcon, DartIcon, FigmaIcon, FlutterIcon, GitIcon, HtmlIcon, JavaIcon, JavaScriptIcon, LaravelIcon, MySqlIcon, NodeJsIcon, PhpIcon, PostgreSqlIcon, PostmanIcon, ReactIcon, SpringIcon, TailwindCssIcon } from "../assets/Icons";
+import { AngularIcon, BootstrapIcon, CIcon, CodeigniterIcon, CppIcon, CSharpIcon, CssIcon, DartIcon, FigmaIcon, FlutterIcon, GitIcon, HtmlIcon, JavaIcon, JavaScriptIcon, KatalonIcon, LaravelIcon, LoadRunnerIcon, MySqlIcon, NodeJsIcon, PhpIcon, PostgreSqlIcon, PostmanIcon, ReactIcon, SpringBootIcon, SpringIcon, TailwindCssIcon } from "../assets/Icons";
 
 const Skills = () => {
     return (
@@ -9,42 +9,17 @@ const Skills = () => {
                     <p className="text-2xl font-semibold">My Toolkit</p>
                 </div>
                 <div className="flex flex-wrap w-3/4 mt-6 justify-center gap-12">
-                    <PhpIcon />
-                    <DartIcon />
-                    <JavaIcon />
-                    <JavaScriptIcon />
-                    <NodeJsIcon />
-                    <CIcon />
-                    <CppIcon />
-                    <CSharpIcon />
                     <CodeigniterIcon />
                     <FlutterIcon />
-                    <SpringIcon />
-                    <AngularIcon />
+                    <SpringBootIcon width={60} height={60} />
                     <ReactIcon />
-                    <BootstrapIcon />
-                    <TailwindCssIcon />
-                    <LaravelIcon />
-                    <MySqlIcon />
                     <PostgreSqlIcon />
-                    <FigmaIcon/>
-                    <PostmanIcon />
-                    <GitIcon />
-                    <HtmlIcon />
-                    <CssIcon />
+                    <AngularIcon />
+                    <TailwindCssIcon />
+                    <BootstrapIcon />
+                    <LoadRunnerIcon />
+                    <KatalonIcon width={60} height={60} />
                 </div>
-
-                {/* UI Design 
-                Figma
-
-                codeigniter, flutter, springboot, angular, react js, react native,
-                git
-                html, css, bootstrap, tailwindcss, dart, php, java, javascript, nodejs
-
-                mysql, postgresql,
-
-                C#, javascript */}
-
             </div>
         </div>
 
