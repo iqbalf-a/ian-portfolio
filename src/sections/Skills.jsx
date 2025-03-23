@@ -1,5 +1,5 @@
 import React from "react";
-import { AngularIcon, BootstrapIcon, CIcon, CodeigniterIcon, CppIcon, CSharpIcon, CssIcon, DartIcon, FigmaIcon, FlutterIcon, GitIcon, HtmlIcon, JavaIcon, JavaScriptIcon, KatalonIcon, LaravelIcon, LoadRunnerIcon, MySqlIcon, NodeJsIcon, PhpIcon, PostgreSqlIcon, PostmanIcon, ReactIcon, SpringBootIcon, SpringIcon, TailwindCssIcon } from "../assets/Icons";
+import { AngularIcon, BootstrapIcon, CodeigniterIcon, FlutterIcon, KatalonIcon, LoadRunnerIcon, PostgreSqlIcon, ReactIcon, SpringBootIcon, TailwindCssIcon } from "../assets/Icons";
 
 const Skills = () => {
     return (

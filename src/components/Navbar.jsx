@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li><a href="#projects" className='hover:text-gray-800'>Projects</a></li>
                 <li><a href="#experience" className='hover:text-gray-800'>Experience</a></li>
                 <li><a href="#contact" className='hover:text-gray-800'>Contact</a></li>
-                <li><Link to="/hire" className='px-6 py-3 rounded-lg text-white text-sm hover:bg-yellow-500 hover:text-white transition-colors hover:border-yellow-500 bg-blue-500'>Hire Me</Link></li>
+                {/* <li><Link to="/hire" className='px-6 py-3 rounded-lg text-white text-sm hover:bg-yellow-500 hover:text-white transition-colors hover:border-yellow-500 bg-blue-500'>Hire Me</Link></li> */}
             </ul>
         </nav>
     )
