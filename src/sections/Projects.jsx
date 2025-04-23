@@ -16,8 +16,8 @@ const Project = () => {
             description: 'desc',
             sourceCode: 'https://github.com/iqbalf-a/my-money',
             technologies: [
-                <DartIcon width={50} height={50} />,
-                <FlutterIcon width={50} height={50} />
+                <DartIcon width={50} height={50} name="Dart" />,
+                <FlutterIcon width={50} height={50} name="Flutter" />
             ],
             image: project1,
             demoUrl: 'https://www.figma.com/design/dcilbSAPYrgk8rFPTpW5tc/MOney-Lovers?m=auto&t=ZBmj3dZiOyskz9zJ-6'
@@ -27,9 +27,9 @@ const Project = () => {
             description: 'clone noveltoon',
             sourceCode: 'https://github.com/iqbalf-a/my-noveltoon-clone',
             technologies: [
-                <VueIcon width={50} height={50} />,
-                <NuxtIcon width={50} height={50} />,
-                <TailwindCssIcon width={50} height={50} />
+                <VueIcon width={50} height={50} name="Vue" />,
+                <NuxtIcon width={50} height={50} name="Nuxt" />,
+                <TailwindCssIcon width={50} height={50} name="Tailwind CSS" />
             ],
             image: project2,
             demoUrl: 'https://my-noveltoon-clone.pages.dev/'
