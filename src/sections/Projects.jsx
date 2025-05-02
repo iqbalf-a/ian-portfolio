@@ -45,9 +45,9 @@ const Project = () => {
     }
 
     return (
-        <div id="projects" className="flex flex-col items-center mt-8">
+        <div id="projects" className="flex flex-col items-center pt-20 md:pt-20 px-8">
             <p className="text-2xl font-semibold">Projects</p>
-            <div className="flex gap-10 mt-4">
+            <div className="flex gap-8 md:gap-10 mt-4">
                 {projects.map((itemProject) => (
                     <ProjectCard key={itemProject.id} itemProject={itemProject} onShowDetail={showProjectDetail} />
                 ))}

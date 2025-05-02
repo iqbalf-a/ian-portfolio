@@ -3,12 +3,12 @@ import { AngularIcon, BootstrapIcon, CodeigniterIcon, FlutterIcon, KatalonIcon, 
 
 const Skills = () => {
     return (
-        <div id="skills" className="flex justify-center mt-12">
-            <div className="flex flex-col items-center w-2/5">
+        <div id="skills" className="flex justify-center pt-20 md:pt-20">
+            <div className="flex flex-col items-center px-12">
                 <div className="flex text-center">
                     <p className="text-2xl font-semibold">My Toolkit</p>
                 </div>
-                <div className="flex flex-wrap w-3/4 mt-6 justify-center gap-12">
+                <div className="flex flex-wrap md:w-1/2 mt-6 justify-center gap-8 md:gap-12">
                     <CodeigniterIcon name="CodeIgniter" />
                     <FlutterIcon name="Flutter" />
                     <SpringBootIcon width={60} height={60} name="SpringBoot" />

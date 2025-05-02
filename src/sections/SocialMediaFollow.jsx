@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialMediaFollow = () => {
     return (
-        <div className='mt-8 flex items-center px-48'>
+        <div className='mt-8 flex items-center md:px-48 justify-center'>
             <div className='mr-4'>
                 <p className='text-gray-600 text-sm'>Follow Me:</p>
             </div>
