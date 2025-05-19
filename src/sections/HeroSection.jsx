@@ -1,5 +1,5 @@
 import React from 'react';
-import BlobProfile from "../assets/blob.svg";
+import BlobProfile from "../assets/blob-char3d.png";
 
 const HeroSection = () => {
     return (
@@ -22,7 +22,7 @@ const HeroSection = () => {
                     {/* <a href="/" className="text-base underline">See Portfolio</a> */}
                 </div>
             </div>
-            <div className="flex flex-1 items-center justify-center">
+            <div className="flex flex-1 py-12 items-center justify-center">
                 <img src={BlobProfile} alt="Profile Blob" width="550" height="550" />
             </div>
         </div>
