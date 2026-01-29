@@ -17,7 +17,7 @@ const Navbar = () => {
                 </div>
                 <div className="text-sm">
                     <p className="font-semibold text-gray-800">iann</p>
-                    <p className="text-gray-700">Banyuwangi</p>
+                    <p className="text-gray-700">-</p>
                 </div>
             </div>
 
