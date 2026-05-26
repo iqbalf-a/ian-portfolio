@@ -5,6 +5,7 @@ import Specialization from "../sections/Specialization";
 import Skills from "../sections/Skills";
 import Projects from "../sections/Projects";
 import Experiences from "../sections/Experiences";
+import Education from "../sections/Education";
 import Contact from "../sections/Contact";
 import Footer from "../components/Footer";
 import BackToTopButton from "../components/BackToTopButton";
@@ -19,6 +20,7 @@ const HomePage = () => {
             <Skills />
             <Projects />
             <Experiences />
+            <Education />
             <Contact />
             <Footer/>
 

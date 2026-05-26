@@ -9,7 +9,7 @@ const projects = [
     {
         id: 1,
         name: "my-money",
-        description: "A personal finance tracker mobile app.",
+        description: "A personal finance tracker mobile app built with Flutter and Dart. Features expense categorization, budget tracking, and visual spending summaries to help users manage their daily finances effectively.",
         sourceCode: "https://github.com/iqbalf-a/my-money",
         technologies: [
             { Icon: DartIcon, name: "Dart" },
@@ -21,7 +21,7 @@ const projects = [
     {
         id: 2,
         name: "noveltoon-clone",
-        description: "A clone of the Noveltoon web platform.",
+        description: "A pixel-perfect clone of the Noveltoon web platform built with Vue.js, Nuxt, and Tailwind CSS. Replicates the reading experience with dynamic chapter navigation and a fully responsive layout.",
         sourceCode: "https://github.com/iqbalf-a/my-noveltoon-clone",
         technologies: [
             { Icon: VueIcon, name: "Vue" },
