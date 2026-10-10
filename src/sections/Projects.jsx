@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import project1 from "../assets/project-item/item1.png";
 import project2 from "../assets/project-item/item2.png";
 import project3 from "../assets/project-item/item3.png";
-import project4 from "../assets/project-item/item4.png";
+import project4 from "../assets/project-item/item4.svg";
 import ModalProjectDetail from "../components/ModalProjectDetail";
 import { DartIcon, FlutterIcon, NuxtIcon, TailwindCssIcon, VueIcon, ReactIcon, TypeScriptIcon, ViteIcon, SpringBootIcon, JavaIcon, PostgreSqlIcon, VercelIcon, MavenIcon } from "../assets/Icons";
 
