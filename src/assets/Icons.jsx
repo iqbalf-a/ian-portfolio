@@ -247,3 +247,21 @@ export const VueIcon = ({ width, height, name }) => {
 
     )
 }
+
+export const TypeScriptIcon = ({ width, height, name }) => {
+    return (
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" name={name} width={width} height={height} alt="typescript-icon" />
+    )
+}
+
+export const ViteIcon = ({ width, height, name }) => {
+    return (
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" name={name} width={width} height={height} alt="vite-icon" />
+    )
+}
+
+export const MavenIcon = ({ width, height, name }) => {
+    return (
+        <Icon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original-wordmark.svg" name={name} width={width} height={height} alt="maven-icon" />
+    )
+}
